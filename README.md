@@ -1,4 +1,4 @@
-<h1 align="center">To DO List</h1>
+<h1 align="center">To Do List</h1>
 
 <h2 align="center">Anastasia Andreeva Project</h1>
 
