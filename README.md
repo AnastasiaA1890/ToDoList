@@ -1,6 +1,6 @@
-<h1 align="center">Mesto Russia</h1>
+<h1 align="center">To DO List</h1>
 
-<h2 align="center">Yandex Project</h1>
+<h2 align="center">Anastasia Andreeva Project</h1>
 
 <p align="center">
 
@@ -8,30 +8,18 @@
 
 </p>
 
-## Описание
+## Description
 
-Данный проект реализован в рамках обучения программы "Веб разработчик" Яндекса.  
-Сайт реализован на HTML5 и CSS3. Примененные технологии:
-* гибкая система раскладки блоков Flex
-* гибкая система раскладки блоков Grid
-* резиновая и адаптивная верстки для десктопных версий, планшетов и смартфонов
-* технология transform
+## Design
 
-Реализованно Popup окно с возможностью редактирования имени и описания пользователя. Реализованно Popup окно с возможностью добавления 
-картинки и ее описания по ссылке. Реализованно Popup окно с возможностью увеличения картинки.
-Примененные технологии:
-* JavaScript
+Made by Anastasia Andreeva
 
-## План по доработке
-
-Планируется реализовать сохранение данных на сервере
-
-## Демо сайта
+## Project Link
 
 <p align="center">
 
-[Ссылка на проект](https://anastasiaa1890.github.io/mesto/)
+[Link](https://anastasiaa1890.github.io/mesto/)
 
-<img src="https://i.postimg.cc/PrRpDg4v/Group-3.png" >
+<img src="" >
 
 </p>
