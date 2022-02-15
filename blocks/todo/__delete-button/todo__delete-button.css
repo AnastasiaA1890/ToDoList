@@ -1,0 +1,9 @@
+.todo__delete-button {
+  background: #7428A3;
+  border: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 15px;
+}

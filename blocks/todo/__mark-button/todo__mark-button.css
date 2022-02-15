@@ -1,0 +1,8 @@
+.todo__mark-button {
+  background: #2959A5;
+  border: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  padding: 0;
+}

@@ -1,0 +1,14 @@
+.todo__button {
+  border: none;
+  background: #161B23;
+  padding: 13px 17px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #D4D4D4;
+  transition: all .4s ease
+}
+
+.todo__button:hover {
+  background: #D4D4D4;
+  color: #161B23;
+}
