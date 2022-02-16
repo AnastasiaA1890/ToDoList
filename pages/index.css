@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/content/content.css);
@@ -10,6 +11,13 @@
 @import url(../blocks/todo/__list/todo__list.css);
 @import url(../blocks/todo/__item/todo__item.css);
 @import url(../blocks/todo/__delete-button/todo__delete-button.css);
+@import url(../blocks/todo/__delete-button-img/todo__delete-button-img.css);
 @import url(../blocks/todo/__mark-button/todo__mark-button.css);
+@import url(../blocks/todo/__mark-button-img/todo__mark-button-img.css);
+@import url(../blocks/todo/_completed/todo_completed.css);
+@import url(../blocks/todo/__fall/todo__fall.css);
+@import url(../blocks/todo/__select/todo__select.css);
+@import url(../blocks/todo/__filter/todo__filter.css);
+@import url(../blocks/todo/__filter-option/todo__filter-option.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);

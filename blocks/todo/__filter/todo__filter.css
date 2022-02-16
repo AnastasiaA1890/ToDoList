@@ -1,0 +1,16 @@
+.todo__filter {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  background: #161B23;
+  color: #D4D4D4;
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  width: 175px;
+}

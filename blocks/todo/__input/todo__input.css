@@ -1,9 +1,12 @@
 .todo__input {
   background: #161B23;
   border: none;
-  padding: 13px 17px;
+  padding: 0 0 0 17px;
   color: #D4D4D4;
   font-size: 18px;
   font-weight: 400;
   width: 316px;
+  height: 50px;
+  margin: 0;
+  box-sizing: border-box;
 }

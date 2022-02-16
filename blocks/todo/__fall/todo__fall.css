@@ -1,0 +1,4 @@
+.todo__fall {
+  transform: translateY(6rem) rotateZ(20deg);
+  opacity: 0;
+}

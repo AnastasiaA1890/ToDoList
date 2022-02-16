@@ -4,5 +4,7 @@
   background: #161B23;
   color: #D4D4D4;
   width: 383px;
-  padding: 13px 17px;
+  padding: 15px 17px;
+  height: 50px;
+  box-sizing: border-box;
 }
