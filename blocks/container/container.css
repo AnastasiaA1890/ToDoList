@@ -1,4 +1,5 @@
 .container {
   max-width: 1440px;
   min-height: 320px;
+  box-sizing: border-box;
 }

@@ -18,12 +18,13 @@
       <h1 class="header__title">Anastasia’s To Do List</h1>
     </header>
     <main class="content">
-      <form class="todo__form">
-        <input type="text" class="todo__input">
-        <button type="submit" class="todo__button">
+      <form class="todo__form" novalidate>
+        <input id="todo-i" type="text" class="todo__input" minlength="2" required>
+        <button type="submit" class="todo__button todo__button-inactive">
           <i class="fa-solid fa-plus"></i>
         </button>
-        <div class="todo__select">
+        <span class="todo-i-error todo__error-visible"></span>
+        <div class="todo__select break">
           <select name="todos" class="todo__filter">
             <option value="all" class="todo__filter-option">All</option>
             <option value="completed" class="todo__filter-option">Completed</option>

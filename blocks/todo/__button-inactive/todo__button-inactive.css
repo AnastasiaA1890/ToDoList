@@ -1,0 +1,4 @@
+.todo__button-inactive {
+  pointer-events: none;
+  color: #6D6F74;
+}

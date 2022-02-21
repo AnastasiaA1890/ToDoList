@@ -1,0 +1,8 @@
+.todo__error-visible {
+  opacity: 0;
+  color: #d597fa;
+  padding: 0;
+  position: absolute;
+  top: 55px;
+  left: 31%;
+}

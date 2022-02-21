@@ -1,13 +1,13 @@
 //Selectors
-const todoInput = document.querySelector('.todo__input');
+const todoForm = document.querySelector('.todo__form');
+const todoInput = todoForm.querySelector('.todo__input');
+const todoError = todoForm.querySelector(`.${todoInput.id}-error`);
 const todoButton = document.querySelector('.todo__button');
 const todoList = document.querySelector('.todo__list');
 const filterOption = document.querySelector('.todo__filter');
 
-
 //Functions
-function addTodo(evt) {
-  evt.preventDefault();
+function addTodo() {
   //Create DIV
   const todoDiv = document.createElement('div');
   todoDiv.classList.add('todo')
@@ -76,9 +76,57 @@ function filterTodo(e) {
   });
 }
 
+//Validate functions
+//Show error function
+function showInputError() {
+  todoError.textContent = 'Minimum allowed number of characters: 2';
+  todoError.classList.add('todo__error-visible_active');
+}
+//Hide error function
+function hideInputError() {
+  todoError.textContent = '';
+  todoError.classList.remove('todo__error-visible_active');
+}
+//Check validation
+const isValid = () => {
+  if (!todoInput.validity.valid) {
+    showInputError();
+  } else {
+    hideInputError();
+  }
+};
+
+todoInput.addEventListener('input', function () {
+  isValid();
+  toggleButtonState();
+});
+
+todoForm.addEventListener('submit', function (evt) {
+  evt.preventDefault();
+});
+
+function hasInvalidInput() {
+  return !todoInput.validity.valid;
+}
+
+//Block Submit button
+function toggleButtonState() {
+  if(hasInvalidInput()) {
+    todoButton.classList.add('todo__button-inactive');
+    todoButton.setAttribute('disabled', true);
+  } else {
+    todoButton.classList.remove('todo__button-inactive');
+    todoButton.removeAttribute('disabled');
+  }
+}
+
 //Event Listeners
-todoButton.addEventListener('click', addTodo);
+todoButton.addEventListener('click', function (evt) {
+  evt.preventDefault();
+  addTodo();
+  toggleButtonState();
+});
 todoList.addEventListener('click', deleteTodo);
 todoList.addEventListener('click', completeTodo);
 filterOption.addEventListener('click', filterTodo)
-addTodo();
+
