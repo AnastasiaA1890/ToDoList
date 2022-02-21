@@ -10,6 +10,8 @@
 
 ## Description
 
+The project was developed by Anastasia. You can add, remove and mark completed item from the ToDo List
+
 ## Design
 
 Made by Anastasia Andreeva
@@ -18,8 +20,8 @@ Made by Anastasia Andreeva
 
 <p align="center">
 
-[Link](https://anastasiaa1890.github.io/mesto/)
+[Link](https://anastasiaa1890.github.io/ToDoList/)
 
-<img src="" >
+<img src="https://i.postimg.cc/pT8RzzvM/2022-02-20-5-25-40-PM.png" >
 
 </p>
